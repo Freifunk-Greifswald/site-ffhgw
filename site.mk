@@ -21,16 +21,17 @@ GLUON_SITE_PACKAGES := \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
-	iwinfo \
+	haveged \
 	iptables \
-	haveged
+	iwinfo \
 
-DEFAULT_GLUON_RELEASE := 0.7.5~$(shell date +'%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.7.6~$(shell date +'%Y-%m-%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
+# Default priority for updates.
+GLUON_PRIORITY ?= 0
+
 # Languages to include
 GLUON_LANGS ?= en de
-
-GLUON_PRIORITY ?= 0
