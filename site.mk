@@ -23,7 +23,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	haveged \
 	iptables \
-	iwinfo \
+	iwinfo
 
 DEFAULT_GLUON_RELEASE := 0.7.6~$(shell date +'%Y-%m-%d')
 
