@@ -9,11 +9,6 @@ GLUON_SITE_FEEDS='ffms'
 #		the  git repository from where to clone the package feed
 PACKAGES_FFMS_REPO=git://github.com/FreiFunkMuenster/packages-ffms.git
 
-# contains the packet
-# * gluon-contact-obligatory
-# * gluon-usb-media
-# * gluon-config-mode-usb-media
-
 ##	PACKAGES_$feedname_COMMIT
 #		the version/commit of the git repository to clone
 PACKAGES_FFMS_COMMIT=6a779100fc8e8ece22838c6fdf7cf139bd0a5423
