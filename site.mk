@@ -22,6 +22,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-setup-mode \
 	gluon-status-page \
 	haveged \
+	gluon-ssid-changer \
 	iptables \
 	gluon-authorized-keys \
 	iwinfo
@@ -33,6 +34,9 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
+
+GLUON_TARGET ?= ar71xx-generic
+export GLUON_TARGET
 
 # Languages to include
 GLUON_LANGS ?= en de
