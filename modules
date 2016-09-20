@@ -7,11 +7,11 @@ GLUON_SITE_FEEDS='ffms'
 
 ##	PACKAGES_$feedname_REPO
 #		the  git repository from where to clone the package feed
-PACKAGES_FFMS_REPO=git://github.com/FreiFunkMuenster/packages-ffms.git
+PACKAGES_FFMS_REPO=git://github.com/Freifunk-Greifswald/packages-ffms.git
 
 ##	PACKAGES_$feedname_COMMIT
 #		the version/commit of the git repository to clone
-PACKAGES_FFMS_COMMIT=6a779100fc8e8ece22838c6fdf7cf139bd0a5423
+PACKAGES_FFMS_COMMIT=f8cab5679d08093c12afcbf8f341d6600476510f
 
 ##  PACKAGES_$feedname_BRANCH
 #   the branch to check out
