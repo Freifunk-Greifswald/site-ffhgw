@@ -22,8 +22,9 @@ GLUON_SITE_PACKAGES := \
 	gluon-setup-mode \
 	gluon-status-page \
 	haveged \
-	gluon-ssid-changer \
 	iptables \
+	gluon-ssid-changer \
+	gluon-rfkill-disable \
 	gluon-authorized-keys \
 	iwinfo
 
