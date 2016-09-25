@@ -2,6 +2,7 @@
 
 Gluon versions used for specific Greifswald Freifunk Firmware builds:
 
+* 2016.2: v2016.2
 * 2016.1.6: v2016.1.6
 * 2016.1.5: v2016.1.5
 * 0.7.7: v2016.1.3
