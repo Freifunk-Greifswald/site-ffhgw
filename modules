@@ -3,15 +3,15 @@
 
 ##	GLUON_SITE_FEEDS
 #		for each feed name given, add the corresponding PACKAGES_* lines
-GLUON_SITE_FEEDS='ffms'
+GLUON_SITE_FEEDS='ffhgw'
 
 ##	PACKAGES_$feedname_REPO
 #		the  git repository from where to clone the package feed
-PACKAGES_FFMS_REPO=git://github.com/Freifunk-Greifswald/packages-ffms.git
+PACKAGES_FFMS_REPO=git://github.com/Freifunk-Greifswald/packages-ffhgw.git
 
 ##	PACKAGES_$feedname_COMMIT
 #		the version/commit of the git repository to clone
-PACKAGES_FFMS_COMMIT=f8cab5679d08093c12afcbf8f341d6600476510f
+PACKAGES_FFMS_COMMIT=26d7ce91c43e9027aad45917d18935d1c15ae5d9
 
 ##  PACKAGES_$feedname_BRANCH
 #   the branch to check out
