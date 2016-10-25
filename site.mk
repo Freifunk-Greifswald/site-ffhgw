@@ -23,18 +23,22 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	haveged \
 	iptables \
+	ffhgw-banner \
 	gluon-ssid-changer \
 	gluon-rfkill-disable \
 	gluon-authorized-keys \
 	iwinfo
 
-DEFAULT_GLUON_RELEASE := 2016.2~$(shell date +'%Y-%m-%d')
+DEFAULT_GLUON_RELEASE := 2016.2.x~$(shell date +'%Y-%m-%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
+
+GLUON_BRANCH ?= stable
+export GLUON_BRANCH
 
 GLUON_TARGET ?= ar71xx-generic
 export GLUON_TARGET
