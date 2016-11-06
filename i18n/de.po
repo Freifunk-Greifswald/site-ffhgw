@@ -12,7 +12,7 @@ msgstr ""
 
 msgid "gluon-config-mode:welcome"
 msgstr ""
-"Willkommen zum Einrichtungsassistenten für deinen neuen Entenhausener "
+"Willkommen zum Einrichtungsassistenten für deinen neuen Greifswalder "
 "Freifunk-Knoten. Fülle das folgende Formular deinen Vorstellungen "
 "entsprechend aus und sende es ab."
 
