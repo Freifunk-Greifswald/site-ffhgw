@@ -45,3 +45,6 @@ export GLUON_TARGET
 
 # Languages to include
 GLUON_LANGS ?= en de
+
+#enable generation of images for ath10k devices with ibss mode
+GLUON_ATH10K_MESH=ibss
