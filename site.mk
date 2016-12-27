@@ -29,7 +29,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-authorized-keys \
 	iwinfo
 
-DEFAULT_GLUON_RELEASE := 2016.2.x~$(shell date +'%Y-%m-%d')
+DEFAULT_GLUON_RELEASE := 2016.3~$(shell date +'%Y-%m-%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -42,6 +42,9 @@ export GLUON_BRANCH
 
 GLUON_TARGET ?= ar71xx-generic
 export GLUON_TARGET
+
+# Region code required for some images; supported values: us eu
+GLUON_REGION ?= eu
 
 # Languages to include
 GLUON_LANGS ?= en de
