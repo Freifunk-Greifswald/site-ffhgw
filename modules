@@ -13,7 +13,7 @@ PACKAGES_FFHO_REPO=https://github.com/FreifunkHochstift/ffho-packages.git
 ##	PACKAGES_$feedname_COMMIT
 #		the version/commit of the git repository to clone
 PACKAGES_FFHGW_COMMIT=121d6ead42a309511676b638f930aa9c358cb859
-PACKAGES_FFHO_COMMIT=1abd1fa969242ac350e1677597143a454251e330
+PACKAGES_FFHO_COMMIT=45ed1bc77e9aa612a9daafc0e070df1401babf8c
 
 ##  PACKAGES_$feedname_BRANCH
 #   the branch to check out
