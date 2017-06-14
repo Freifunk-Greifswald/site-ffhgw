@@ -1,5 +1,4 @@
 GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-14 \
 	gluon-alfred \
 	gluon-respondd \
 	gluon-autoupdater \
@@ -11,12 +10,12 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-mesh-vpn \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-luci-private-wifi \
-	gluon-luci-admin \
-	gluon-luci-autoupdater \
-	gluon-luci-portconfig \
-	gluon-luci-wifi-config \
-	gluon-next-node \
+	gluon-web-admin \
+	gluon-web-autoupdater \
+	gluon-web-network \
+	gluon-web-private-wifi \
+	gluon-web-wifi-config \
+	gluon-mesh-batman-adv-14 \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-setup-mode \
@@ -29,7 +28,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-authorized-keys \
 	iwinfo
 
-DEFAULT_GLUON_RELEASE := 2016.3~$(shell date +'%Y-%m-%d')
+DEFAULT_GLUON_RELEASE := 2017-06-14~68edfe0
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -40,7 +39,7 @@ GLUON_PRIORITY ?= 0
 GLUON_BRANCH ?= stable
 export GLUON_BRANCH
 
-GLUON_TARGET ?= ar71xx-generic
+GLUON_TARGET ?= ar71xx-tiny
 export GLUON_TARGET
 
 # Region code required for some images; supported values: us eu

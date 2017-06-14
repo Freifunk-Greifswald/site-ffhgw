@@ -1,21 +1,10 @@
-# This file allows specifying additional repositories to use
-# when building gluon.
+GLUON_SITE_FEEDS='ffhgw ssidchanger'
 
-##	GLUON_SITE_FEEDS
-#		for each feed name given, add the corresponding PACKAGES_* lines
-GLUON_SITE_FEEDS='ffhgw ffho'
-
-##	PACKAGES_$feedname_REPO
-#		the  git repository from where to clone the package feed
 PACKAGES_FFHGW_REPO=https://github.com/Freifunk-Greifswald/packages-ffhgw.git
-PACKAGES_FFHO_REPO=https://github.com/FreifunkHochstift/ffho-packages.git
+PACKAGES_SSIDCHANGER_REPO=https://github.com/freifunk-nord/gluon-ssid-changer.git
 
-##	PACKAGES_$feedname_COMMIT
-#		the version/commit of the git repository to clone
-PACKAGES_FFHGW_COMMIT=121d6ead42a309511676b638f930aa9c358cb859
-PACKAGES_FFHO_COMMIT=45ed1bc77e9aa612a9daafc0e070df1401babf8c
+PACKAGES_FFHGW_COMMIT=645e28df7eacc6d5782d923ee7e8c43827836e36
+PACKAGES_SSIDCHANGER_COMMIT=b008c4244afb9793e189ad64eb2ac25d31abaf67
 
-##  PACKAGES_$feedname_BRANCH
-#   the branch to check out
 PACKAGES_FFHGW_BRANCH=master
-PACKAGES_FFHO_BRANCH=master
+PACKAGES_SSIDCHANGER_BRANCH=lede
