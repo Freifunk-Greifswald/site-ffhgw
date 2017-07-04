@@ -28,7 +28,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-authorized-keys \
 	iwinfo
 
-DEFAULT_GLUON_RELEASE := 2017-06-14~68edfe0
+DEFAULT_GLUON_RELEASE := yyyy-mm-dd~commit
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
