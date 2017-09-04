@@ -43,7 +43,7 @@ msgstr ""
 "<p>To get back to this configuration interface, press the reset button for "
 "3 seconds during normal operation. The device will then reboot into config "
 "mode.</p>"
-"<p>Have fun with your node and exploring of the Freifunk network!</p>
+"<p>Have fun with your node and exploring of the Freifunk network!</p>"
 
 msgid "gluon-config-mode:altitude-label"
 msgstr "Altitude"
