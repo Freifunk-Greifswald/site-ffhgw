@@ -16,11 +16,10 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-private-wifi \
 	gluon-web-wifi-config \
 	gluon-mesh-batman-adv-14 \
-	gluon-mesh-vpn-fastd \
+	gluon-mesh-vpn-tunneldigger \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
-	gluon-quickfix \
 	haveged \
 	iptables \
 	ffhgw-banner \
@@ -29,7 +28,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-authorized-keys \
 	iwinfo
 
-DEFAULT_GLUON_RELEASE := yyyy-mm-dd~commit
+DEFAULT_GLUON_RELEASE := yyyy-mm-dd~L2TP
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -37,7 +36,7 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
 
-GLUON_BRANCH ?= stable
+GLUON_BRANCH ?= experimental
 export GLUON_BRANCH
 
 GLUON_TARGET ?= ar71xx-tiny
