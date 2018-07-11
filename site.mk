@@ -8,6 +8,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
+	gluon-status-page-mesh-batman-adv \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-web-admin \
@@ -50,4 +51,4 @@ GLUON_REGION ?= eu
 GLUON_LANGS ?= en de
 
 #enable generation of images for ath10k devices with ibss mode
-GLUON_ATH10K_MESH=ibss
+GLUON_ATH10K_MESH=11s
