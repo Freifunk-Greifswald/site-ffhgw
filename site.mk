@@ -1,34 +1,39 @@
+GLUON_FEATURES := \
+	autoupdater \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	ebtables-limit-arp \
+	mesh-batman-adv-14 \
+	mesh-vpn-fastd \
+	radvd \
+	alfred \
+	respondd \
+	status-page \
+	web-advanced \
+	web-wizard \
+	web-private-wifi
+
 GLUON_SITE_PACKAGES := \
-	gluon-alfred \
-	gluon-respondd \
-	gluon-autoupdater \
-	gluon-config-mode-autoupdater \
-	gluon-config-mode-contact-info \
-	gluon-config-mode-core \
-	gluon-config-mode-geo-location \
-	gluon-config-mode-hostname \
-	gluon-config-mode-mesh-vpn \
-	gluon-status-page-mesh-batman-adv \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
-	gluon-web-admin \
-	gluon-web-autoupdater \
-	gluon-web-network \
-	gluon-web-private-wifi \
-	gluon-web-wifi-config \
-	gluon-mesh-batman-adv-14 \
-	gluon-mesh-vpn-fastd \
-	gluon-radvd \
+	gluon-core \
 	gluon-setup-mode \
-	gluon-status-page \
-	gluon-quickfix \
+	gluon-config-mode-core \
+	gluon-authorized-keys \
 	haveged \
 	iptables \
-	ffhgw-banner \
-	gluon-ssid-changer \
-	gluon-rfkill-disable \
-	gluon-authorized-keys \
 	iwinfo
+
+# from https://github.com/Freifunk-Greifswald/packages-ffhgw:
+	GLUON_SITE_PACKAGES += \
+	gluon-rfkill-disable \
+	ffhgw-banner
+
+# from https://github.com/Freifunk-Nord/gluon-ssid-changer:
+	GLUON_SITE_PACKAGES += \
+	gluon-ssid-changer
+
+# from https://github.com/eulenfunk/packages:
+	GLUON_SITE_PACKAGES += \
+	gluon-quickfix
 
 DEFAULT_GLUON_RELEASE := yyyy-mm-dd~commit
 
