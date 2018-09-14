@@ -6,7 +6,6 @@ GLUON_FEATURES := \
 	mesh-batman-adv-14 \
 	mesh-vpn-tunneldigger \
 	radvd \
-	alfred \
 	respondd \
 	status-page \
 	web-advanced \
