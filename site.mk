@@ -55,4 +55,4 @@ GLUON_REGION ?= eu
 GLUON_LANGS ?= en de
 
 #enable generation of images for ath10k devices with ibss mode
-GLUON_ATH10K_MESH=11s
+GLUON_WLAN_MESH=11s
