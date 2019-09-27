@@ -3,9 +3,8 @@ GLUON_FEATURES := \
 	ebtables-filter-multicast \
 	ebtables-filter-ra-dhcp \
 	ebtables-limit-arp \
-	mesh-batman-adv-14 \
+	mesh-batman-adv-15 \
 	mesh-vpn-fastd \
-	radvd \
 	respondd \
 	status-page \
 	web-advanced \
@@ -56,3 +55,6 @@ GLUON_LANGS ?= en de
 
 #enable generation of images for ath10k devices with ibss mode
 GLUON_WLAN_MESH=11s
+
+# Do not build images for deprecated devices
+GLUON_DEPRECATED ?= full
