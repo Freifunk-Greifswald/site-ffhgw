@@ -3,7 +3,7 @@ GLUON_FEATURES := \
 	ebtables-filter-multicast \
 	ebtables-filter-ra-dhcp \
 	ebtables-limit-arp \
-	mesh-batman-adv-15 \
+	mesh-batman-adv-14 \
 	mesh-vpn-fastd \
 	respondd \
 	status-page \
@@ -28,10 +28,6 @@ GLUON_SITE_PACKAGES := \
 # from https://github.com/Freifunk-Nord/gluon-ssid-changer:
 	GLUON_SITE_PACKAGES += \
 	gluon-ssid-changer
-
-# from https://github.com/eulenfunk/packages:
-	GLUON_SITE_PACKAGES += \
-	gluon-quickfix
 
 DEFAULT_GLUON_RELEASE := yyyy-mm-dd~commit
 
